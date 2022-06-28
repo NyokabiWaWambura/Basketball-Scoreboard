@@ -1,0 +1,33 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <button id="first">0</button>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <button id="second">0</button>
+            </div>
+        </div>
+    <div id="main">
+        <div>
+           <button id="increment-btn" onclick="increment(1)">+1</button>
+           <button id="increment-btn" onclick="increment(2)">+2</button>
+           <button id="increment-btn" onclick="increment(3)">+3</button>
+         </div> 
+         <div>
+             <button id="increment-btn-two" onclick="incrementing(1)">+1</button>
+             <button id="increment-btn-two" onclick="incrementing(2)">+2</button>
+             <button id="increment-btn-two" onclick="incrementing(3)">+3</button> 
+         </div> 
+    </div>
+    <div id="refresh">
+       <input type="reset" onclick="resetForm()" value="Reset"/>
+    </div> 
+        <script src="index.js"></script>
+    </body>
+</html>
